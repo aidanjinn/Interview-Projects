@@ -1,0 +1,8 @@
+I used chat gpt to first help with making any translation from c++ code into c code that I didn't remember the syntax for.
+I didn't fully understand what the ode was really doing so I used chatgpt to explain to me what.
+Most with indexing the pageref array since I didn't know the KERNBASE / PGSIZE
+Also used it to explain the grading tests to me.
+Overall the ai was mostly used to help explain certain sections of the already existing code.
+
+For the most part it was used to interpret other code I found I didn't understand.
+

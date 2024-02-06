@@ -1,0 +1,62 @@
+#!/usr/bin/env python3
+
+import re
+import subprocess
+from gradelib import *
+
+r = Runner(save("xv6.out"))
+
+@test(5, "ai-usage.txt")
+def test_ai():
+    # just a simple sanity check, will be graded manually
+    check_answers("ai-usage.txt")
+
+@test(10, "discussion.txt")
+def test_discussion():
+    # just a simple sanity check, will be graded manually
+    check_answers("discussion.txt")
+
+@test(10, "single default")
+def test_singledefault():
+    r.run_qemu(shell_script([
+        'schedulertest'
+    ]), make_args=['CPUS=1'], timeout=5000)
+    r.match('^testdefault: OK$')
+
+@test(10, "single syscall", parent=test_singledefault)
+def test_singlesys():
+    r.match('^testsyscall: OK$')
+
+@test(10, "single procs", parent=test_singledefault)
+def test_singleprocs():
+    r.match('^procspriority: OK$')
+
+@test(10, "single procsinv", parent=test_singledefault)
+def test_singleprocsinv():
+    r.match('^procspriorityinverted: OK$')
+
+@test(10, "single", parent=test_singledefault)
+def test_single():
+    r.match('^schedulertest: OK$')
+
+@test(10, "multi default")
+def test_multidefault():
+    subprocess.run(['make', 'clean'], check=True)
+    r.run_qemu(shell_script([
+        'schedulertest'
+    ]), make_args=['CPUS=2'], timeout=5000)
+    r.match('^testdefault: OK$')
+
+@test(10, "multi syscall", parent=test_multidefault)
+def test_multisys():
+    r.match('^testsyscall: OK$')
+
+@test(10, "multi procs", parent=test_multidefault)
+def test_multiprocs():
+    r.match('^procsequal: OK$')
+
+@test(5, "multi", parent=test_multidefault)
+def test_multi():
+    r.match('^schedulertest: OK$')
+
+run_tests()

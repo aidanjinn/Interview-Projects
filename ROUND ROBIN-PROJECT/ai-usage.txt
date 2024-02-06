@@ -1,0 +1,11 @@
+Chat GPT USES:
+
+For finding where I needed to do the default priority allocation in page alloc
+The need for the proctable spinlock in order to lock the whole process from start to after setting the found process to RUNNING
+In general for understand some of the concepts when it came to writing my discussion document.
+When I was having issues with my scheduler code I use chat gpt to help find if I had any glaring logic errors or non-useful code. So mostly for code simplification.
+
+
+Overall it was much more useful for this PA in comparison to prior ones.
+
+

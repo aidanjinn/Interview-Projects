@@ -1,0 +1,28 @@
+Differences:
+
+Priority Assignment: Has preemption where robin relies on time slicing. So certain process are given more run time in comparison to others. So response time for high priority tasks are served much faster, than robin. Where robin ensure fair allocation.
+
+After running the tests I observed the response, execution, and number of context switches for each process. After testing with difference CPU counts It helped show how the two worked with parallelism in mind.
+
+Behavior with Different Numbers of CPUs:
+
+Fixed-Priority Scheduling:
+
+With a single CPU, fixed-priority scheduling focuses on executing the highest-priority tasks first. Low-priority processes may suffer from starvation if high-priority processes are continually arriving.
+As the number of CPUs increases, parallelism improves. Multiple processes can run simultaneously, reducing contention for CPU time among high-priority tasks and providing better throughput.
+
+Round-robin scheduling allocates equal time slices to each process in a cyclic manner. With a single CPU, this means that processes take turns executing.
+Adding more CPUs enhances parallelism. Multiple processes can run concurrently, improving system responsiveness and throughput.
+
+Conditions for Low-Priority Processes to be Scheduled:
+
+Fixed-Priority Scheduling:
+
+Low-priority processes in a fixed-priority system will be scheduled when there are no higher-priority processes ready to execute. This can occur when all high-priority tasks are either waiting for I/O or are blocked for some reason.
+It's essential to ensure that the scheduler is designed to maintain a balance between high and low-priority tasks, preventing starvation and ensuring fairness.
+
+Round-Robin Scheduling:
+
+In round-robin scheduling, all processes have the same priority, so low-priority processes are scheduled when it's their turn in the queue.
+Low-priority processes can be scheduled even if high-priority ones are ready to run because the round-robin algorithm enforces fairness by allocating a fixed time slice to each process.
+To give low-priority processes more CPU time, you can adjust the time slice duration or use dynamic priority-based scheduling in conjunction with round-robin.
