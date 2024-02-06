@@ -1,0 +1,93 @@
+# ninja log v5
+0	671	1695832104556398669	CMakeFiles/main.dir/src/Sudoku.cpp.o	f86787b7c312d483
+0	752	1695832104638710134	CMakeFiles/main.dir/src/main.cpp.o	3b5fb1c33429a57b
+752	804	1695832104692922548	main	226ec61f4405fc35
+12	637	1695832163320682627	CMakeFiles/main.dir/src/Sudoku.cpp.o	f86787b7c312d483
+637	685	1695832163372557529	main	226ec61f4405fc35
+14	614	1695832307068419141	CMakeFiles/main.dir/src/Sudoku.cpp.o	f86787b7c312d483
+14	686	1695832307142441740	CMakeFiles/main.dir/src/main.cpp.o	3b5fb1c33429a57b
+687	735	1695832307193466143	main	226ec61f4405fc35
+0	663	1695832831449275407	CMakeFiles/testing.dir/src/Sudoku.cpp.o	df04f606f1931a83
+1	757	1695832831544503996	CMakeFiles/testing.dir/tests/main.cpp.o	fea9139232099729
+1	1646	1695832832431126027	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	8470a923959c547a
+11	110	1695832904465255000	lib/libgtest.a	cbb41787cf97926c
+23	864	1695833119550920367	CMakeFiles/testing.dir/src/Sudoku.cpp.o	df04f606f1931a83
+25	942	1695833119630877877	CMakeFiles/testing.dir/tests/main.cpp.o	fea9139232099729
+25	997	1695833119685083261	CMakeFiles/testing.dir/tests/SudokuTest.cpp.o	3cb92ed86f74afc5
+997	1070	1695833119762689168	/Users/aidanwendorf/Desktop/CURRENT HW/project1-aidanjinn/bin/testing	1c1b1bea98dc956e
+12	763	1695833231869785947	CMakeFiles/main.dir/src/Sudoku.cpp.o	f86787b7c312d483
+12	905	1695833232013664240	CMakeFiles/main.dir/src/main.cpp.o	3b5fb1c33429a57b
+905	977	1695833232088289979	main	226ec61f4405fc35
+8	344	1695833244360086503	CMakeFiles/main.dir/src/Sudoku.cpp.o	f86787b7c312d483
+344	381	1695833244398936268	main	226ec61f4405fc35
+9	585	1695833417854962608	CMakeFiles/main.dir/src/Sudoku.cpp.o	f86787b7c312d483
+585	636	1695833417909807724	main	226ec61f4405fc35
+8	329	1695833434217806238	CMakeFiles/main.dir/src/Sudoku.cpp.o	f86787b7c312d483
+329	363	1695833434254330317	main	226ec61f4405fc35
+9	587	1695833457769926928	CMakeFiles/main.dir/src/Sudoku.cpp.o	f86787b7c312d483
+587	639	1695833457825649729	main	226ec61f4405fc35
+10	334	1695833484125125566	CMakeFiles/main.dir/src/Sudoku.cpp.o	f86787b7c312d483
+334	368	1695833484161293196	main	226ec61f4405fc35
+9	315	1695833498200342532	CMakeFiles/main.dir/src/Sudoku.cpp.o	f86787b7c312d483
+315	351	1695833498238427734	main	226ec61f4405fc35
+8	292	1695833504383360601	CMakeFiles/main.dir/src/Sudoku.cpp.o	f86787b7c312d483
+292	325	1695833504417971649	main	226ec61f4405fc35
+7	334	1695833521360508669	CMakeFiles/main.dir/src/Sudoku.cpp.o	f86787b7c312d483
+334	368	1695833521396652508	main	226ec61f4405fc35
+9	400	1695833531670024704	CMakeFiles/main.dir/src/Sudoku.cpp.o	f86787b7c312d483
+400	450	1695833531725029024	main	226ec61f4405fc35
+8	334	1695833538358572953	CMakeFiles/main.dir/src/Sudoku.cpp.o	f86787b7c312d483
+334	366	1695833538393355872	main	226ec61f4405fc35
+8	337	1695833544923193777	CMakeFiles/main.dir/src/Sudoku.cpp.o	f86787b7c312d483
+337	370	1695833544958813631	main	226ec61f4405fc35
+19	353	1695833553680854452	CMakeFiles/main.dir/src/Sudoku.cpp.o	f86787b7c312d483
+353	386	1695833553722342228	main	226ec61f4405fc35
+9	618	1695833989385550101	CMakeFiles/main.dir/src/Sudoku.cpp.o	f86787b7c312d483
+618	669	1695833989439765193	main	226ec61f4405fc35
+9	344	1695834025873419095	CMakeFiles/main.dir/src/Sudoku.cpp.o	f86787b7c312d483
+344	382	1695834025915948342	main	226ec61f4405fc35
+24	596	1695834053947188464	CMakeFiles/main.dir/src/Sudoku.cpp.o	f86787b7c312d483
+596	643	1695834053997681210	main	226ec61f4405fc35
+10	375	1695834077542418736	CMakeFiles/main.dir/src/Sudoku.cpp.o	f86787b7c312d483
+375	417	1695834077585489199	main	226ec61f4405fc35
+9	583	1695834128833640060	CMakeFiles/main.dir/src/Sudoku.cpp.o	f86787b7c312d483
+583	632	1695834128885854179	main	226ec61f4405fc35
+14	368	1695834142156114054	CMakeFiles/testing.dir/src/Sudoku.cpp.o	df04f606f1931a83
+368	423	1695834142214477912	/Users/aidanwendorf/Desktop/CURRENT HW/project1-aidanjinn/bin/testing	1c1b1bea98dc956e
+25	649	1695834987211654124	CMakeFiles/testing.dir/src/Sudoku.cpp.o	df04f606f1931a83
+650	708	1695834987272982550	/Users/aidanwendorf/Desktop/CURRENT HW/project1-aidanjinn/bin/testing	1c1b1bea98dc956e
+8	670	1695840132389861103	CMakeFiles/main.dir/src/Sudoku.cpp.o	f86787b7c312d483
+9	762	1695840132482739170	CMakeFiles/main.dir/src/main.cpp.o	3b5fb1c33429a57b
+762	813	1695840132537594280	main	226ec61f4405fc35
+21	768	1696183146287766629	CMakeFiles/main.dir/src/main.cpp.o	3b5fb1c33429a57b
+18	348	1696183181952822052	CMakeFiles/main.dir/src/Sudoku.cpp.o	f86787b7c312d483
+348	405	1696183182011837003	main	226ec61f4405fc35
+9	587	1696183291669431420	CMakeFiles/main.dir/src/Sudoku.cpp.o	f86787b7c312d483
+587	636	1696183291720921032	main	226ec61f4405fc35
+9	641	1696183685423089187	CMakeFiles/main.dir/src/Sudoku.cpp.o	f86787b7c312d483
+7	503	1696183695125656289	CMakeFiles/main.dir/src/main.cpp.o	3b5fb1c33429a57b
+9	667	1696183722516129434	CMakeFiles/main.dir/src/Sudoku.cpp.o	f86787b7c312d483
+9	765	1696183722614460547	CMakeFiles/main.dir/src/main.cpp.o	3b5fb1c33429a57b
+765	821	1696183722672418771	main	226ec61f4405fc35
+15	539	1696183736703744724	CMakeFiles/testing.dir/src/Sudoku.cpp.o	df04f606f1931a83
+15	639	1696183736803605930	CMakeFiles/testing.dir/tests/main.cpp.o	fea9139232099729
+15	696	1696183736861263368	CMakeFiles/testing.dir/tests/SudokuTest.cpp.o	3cb92ed86f74afc5
+697	755	1696183736922911513	/Users/aidanwendorf/Desktop/CURRENT HW/project1-aidanjinn/bin/testing	1c1b1bea98dc956e
+13	603	1696183789079855338	CMakeFiles/testing.dir/src/Sudoku.cpp.o	df04f606f1931a83
+603	662	1696183789145976262	/Users/aidanwendorf/Desktop/CURRENT HW/project1-aidanjinn/bin/testing	1c1b1bea98dc956e
+9	341	1696183794705294602	CMakeFiles/testing.dir/src/Sudoku.cpp.o	df04f606f1931a83
+341	383	1696183794749283456	/Users/aidanwendorf/Desktop/CURRENT HW/project1-aidanjinn/bin/testing	1c1b1bea98dc956e
+16	697	1696184298116674140	CMakeFiles/testing.dir/src/Sudoku.cpp.o	df04f606f1931a83
+697	755	1696184298179275188	/Users/aidanwendorf/Desktop/CURRENT HW/project1-aidanjinn/bin/testing	1c1b1bea98dc956e
+10	337	1696184316142016069	CMakeFiles/testing.dir/src/Sudoku.cpp.o	df04f606f1931a83
+337	382	1696184316189115507	/Users/aidanwendorf/Desktop/CURRENT HW/project1-aidanjinn/bin/testing	1c1b1bea98dc956e
+15	711	1696184535191884198	CMakeFiles/testing.dir/src/Sudoku.cpp.o	df04f606f1931a83
+15	831	1696184535310343358	CMakeFiles/testing.dir/tests/main.cpp.o	fea9139232099729
+16	888	1696184535366849743	CMakeFiles/testing.dir/tests/SudokuTest.cpp.o	3cb92ed86f74afc5
+888	980	1696184535462559162	/Users/aidanwendorf/Desktop/CURRENT HW/project1-aidanjinn/bin/testing	1c1b1bea98dc956e
+9	2630	1696287813221995129	CMakeFiles/testing.dir/src/Sudoku.cpp.o	df04f606f1931a83
+2630	2867	1696287813464145443	/Users/aidanwendorf/Desktop/CURRENT HW/project1-aidanjinn/bin/testing	1c1b1bea98dc956e
+11	2329	1696306030307917488	CMakeFiles/testing.dir/src/Sudoku.cpp.o	df04f606f1931a83
+2329	2399	1696306030382875939	/Users/aidanwendorf/Desktop/CURRENT HW/project1-aidanjinn/bin/testing	1c1b1bea98dc956e
+33	745	1696307535281425776	CMakeFiles/testing.dir/src/Sudoku.cpp.o	df04f606f1931a83
+745	807	1696307535349251465	/Users/aidanwendorf/Desktop/CURRENT HW/project1-aidanjinn/bin/testing	1c1b1bea98dc956e

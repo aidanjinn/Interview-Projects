@@ -1,0 +1,21 @@
+# ninja log v5
+0	10	1695830621919000364	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	7ec4cb19700e31c0
+0	10	1695830621919000364	/Users/aidanwendorf/Desktop/CURRENT HW/project1-aidanjinn/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	7ec4cb19700e31c0
+10	2622	1695830624531275545	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	e69fe476f432c46f
+10	2622	1695830624531275545	/Users/aidanwendorf/Desktop/CURRENT HW/project1-aidanjinn/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	e69fe476f432c46f
+2622	2654	0	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	487c682847654662
+2622	2654	0	/Users/aidanwendorf/Desktop/CURRENT HW/project1-aidanjinn/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	487c682847654662
+2654	2663	1695830624572092591	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	1ae8824094e869ee
+2654	2663	1695830624572092591	/Users/aidanwendorf/Desktop/CURRENT HW/project1-aidanjinn/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	1ae8824094e869ee
+2663	2672	1695830624580900281	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	cc021fca565e4e62
+2663	2672	1695830624580900281	/Users/aidanwendorf/Desktop/CURRENT HW/project1-aidanjinn/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	cc021fca565e4e62
+2672	2680	1695830624589646389	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	9a9d3b8963aad90f
+2672	2680	1695830624589646389	/Users/aidanwendorf/Desktop/CURRENT HW/project1-aidanjinn/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	9a9d3b8963aad90f
+2681	2689	1695830624598437953	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	f232db67e809cf45
+2681	2689	1695830624598437953	/Users/aidanwendorf/Desktop/CURRENT HW/project1-aidanjinn/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	f232db67e809cf45
+2689	2698	1695830624607447845	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	942097660a6ad2a8
+2689	2698	1695830624607447845	/Users/aidanwendorf/Desktop/CURRENT HW/project1-aidanjinn/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	942097660a6ad2a8
+2698	2710	1695830624619637389	CMakeFiles/googletest-populate-complete	274dc1c60a08e99
+2698	2710	1695830624619637389	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	274dc1c60a08e99
+2698	2710	1695830624619637389	/Users/aidanwendorf/Desktop/CURRENT HW/project1-aidanjinn/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	274dc1c60a08e99
+2698	2710	1695830624619637389	/Users/aidanwendorf/Desktop/CURRENT HW/project1-aidanjinn/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	274dc1c60a08e99
